@@ -1,0 +1,11 @@
+reset;
+option solver gurobi;
+model Cumulativa1.mod;
+data Cumulativa.dat;
+#data Cumulativa1.dat;
+#data Cumulativa2.dat;
+solve;
+display salto;
+display G;
+display errore_totale; 
+
